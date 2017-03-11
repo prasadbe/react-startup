@@ -1,0 +1,29 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all --parallel  nodeServer webpackServer",
+    "nodeServer": "node start.js",
+    "webpackServer": "webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-preset-latest": "^6.22.0",
+    "ejs": "^2.5.6",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "npm-run-all": "^4.0.2",
+    "path": "^0.12.7",
+    "react": "^15.4.2",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6"
+  }
+}
